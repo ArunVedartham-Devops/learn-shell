@@ -12,3 +12,7 @@ echo x is $x
 # $? means Exit status os a command
 ls
 echo exit status - $?
+
+# exit status ranges from 0 to 255
+# 0 - success
+# 1-255 - non success or failure
