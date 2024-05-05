@@ -22,3 +22,13 @@ echo First Argument - $1
 echo Second Argument - $2
 echo All Arguments - $*
 echo No of Arguments - $#
+
+# command substitution
+
+lS=(ls)
+echo $LS
+
+# Arithmetic substitution
+ADD=#((3+4))
+echo $ADD
+
