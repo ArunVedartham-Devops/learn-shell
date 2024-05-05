@@ -3,6 +3,13 @@ print_hello() {
   echo hello world
   y=20
 }
+
+inputs_function() {
+  echo first argument - $1
+  echo second argument - $2
+  echo all arguments - $*
+}
+
 x=20
 print_hello
 echo y from function - $y
