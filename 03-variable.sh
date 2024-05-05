@@ -25,7 +25,7 @@ echo No of Arguments - $#
 
 # command substitution
 
-lS=$(ls)
+LS=$(ls)
 echo $LS
 
 # Arithmetic substitution
