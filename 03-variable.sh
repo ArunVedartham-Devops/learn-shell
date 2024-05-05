@@ -25,10 +25,10 @@ echo No of Arguments - $#
 
 # command substitution
 
-lS=(ls)
+lS=$(ls)
 echo $LS
 
 # Arithmetic substitution
-ADD=#((3+4))
+ADD=$((3+4))
 echo $ADD
 
