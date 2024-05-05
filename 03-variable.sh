@@ -16,3 +16,9 @@ echo exit status - $?
 # exit status ranges from 0 to 255
 # 0 - success
 # 1-255 - non success or failure
+
+echo Script Name - $0
+echo First Argument - $1
+echo Second Argument - $2
+echo All Arguments - $*
+echo No of Arguments - $#
