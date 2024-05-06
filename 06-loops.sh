@@ -8,7 +8,7 @@ done
 
   # for
 
-  For course in AWS AZURE DEVOPS ; do
+  for course in AWS AZURE DEVOPS ; do
     echo Welcome to $course training
     sleep 2
   done
