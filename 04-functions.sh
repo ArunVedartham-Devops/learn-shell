@@ -15,3 +15,11 @@ print_hello
 echo y from function - $y
 
 inputs_function 123 456
+
+demo() {
+  echo Hello
+  return 0
+  echo bye
+}
+demo
+echo return status function -$?
