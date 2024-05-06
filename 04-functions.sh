@@ -18,8 +18,8 @@ inputs_function 123 456
 
 demo() {
   echo Hello
-  return 0
+  return 10
   echo bye
 }
 demo
-echo return status function -$?
+echo return status function - $?
